@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+@h#tnuq#qh9p*w3um*er7$od_8w*eezaor6mvolxyxgoevv=)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-api-9yhl.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['hospital-m-s-backend.onrender.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -136,7 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
    'https://hospital-management-system-lilac.vercel.app',
-   'https://django-api-9yhl.onrender.com',
+   'https://hospital-m-s-backend.onrender.com',
 ]
 
 # Allow all origins (if needed, for development purposes only)
