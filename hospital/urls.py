@@ -34,9 +34,9 @@ urlpatterns = [
     path('api/doctors/count/', DoctorViewSet.as_view({'get': 'get_doctor_count'}), name='doctor-count'),
     path('api/pharmacists/count/', PharmacistViewSet.as_view({'get': 'get_pharmacist_count'}), name='pharmacist-count'),
     path('api/admins/count/', AdminViewSet.as_view({'get': 'get_admin_count'}), name='admin-count'),
-    path('api/appointments/count/', AppointmentsViewSet.as_view({'get': 'get_appointments_count'}), name='appointments-count'),
+    #path('api/appointments/count/', AppointmentsViewSet.as_view({'get': 'get_appointments_count'}), name='appointments-count'),
     path('api/medicines/count/', MedicineInventoryViewSet.as_view({'get': 'get_medicine_count'}), name='medicines-count'),
-    path('api/medicines/total-stock-value/', TotalStockValueView.as_view(), name='total-stock-value'),
+    #path('api/medicines/total-stock-value/', TotalStockValueView.as_view(), name='total-stock-value'),
     
     
     path('auth/register/admin/', AdminRegistrationView.as_view(), name='register-admin'),
